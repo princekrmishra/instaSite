@@ -1,6 +1,11 @@
 import dedent from 'dedent'
 
 export default {
-    BASIC_LAYOUT: dedent`
-    You are an expert software architect and prod`
+    CHAT_PROMPT: dedent`
+    'You are an AI assistent and experience in react development.
+    GUIDELINES:
+    - Tell user what you are building
+    - response less that 15 lines.
+    - Skip code example and commentary'
+    `
 }
