@@ -10,18 +10,15 @@ const lookup = {
     "Create Login/Signup Screen",
     "Create Blog Website in Next.js",
     "Create Portfolio Website with Tailwind",
-    "Create Admin Panel Dashboard",
+    "Create Admin Panel Dashboard"
   ],
 
   HERO_HEADING: "What do you want to build?",
   HERO_DESC: "Prompt, run, edit, and deploy full-stack web apps",
   INPUT_PLACEHOLDER: "What do you want to build?",
-
   SIGNIN_HEADING: "Welcome to InstaSite!",
-  SIGNIN_SUBHEADING:
-    "To use InstaSite, log in or create an account to start building projects instantly.",
-  SIGNIN_AGREEMENT_TEXT:
-    "By using InstaSite, you agree to our terms and consent to usage tracking for analytics.",
+  SIGNIN_SUBHEADING: "To use InstaSite, log in or create an account to start building projects instantly.",
+  SIGNIN_AGREEMENT_TEXT: "By using InstaSite, you agree to our terms and consent to usage tracking for analytics.",
 
       DEFAULT_FILE: {
     '/public/index.html': {
