@@ -23,3 +23,17 @@ export const GetWorkspace = query({
         return result;
     }
 })
+
+
+export const UpdateMessage=mutation({
+    args: {
+        workspaceId: v.id('workspace'),
+        messages: v.any(),
+    },
+    handler:async(ctx, args)=>{
+        const result = await ctx.db.patch(args.workspaceId,{
+            messages: args.messages
+        });
+        return result;
+    }
+})
